@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="header" class="header">
+    </header>
+    <nav id="nav" class="nav">      
+    </nav>
+    <script>
+        $(function(){
+          $("#header").load("header.html");
+        });
+    </script>
+    <script>
+        $(function(){
+          $("#nav").load("nav.html");
+        });
+    </script>
+    <main class="main">
+        <div class="container">
+            <div class="title">Список объектов ФАК</div>
+            <p>Страница, предостовляющая список всех объектов ФАК.</p>
+            <ol class="object-list">
+                <li class="object-list-item"><a href="objects/1.html">Дикий Владик</a></li>
+                <li class="object-list-item"><a href="objects/2.html">Скинволкер</a></li>
+                <li class="object-list-item"><a href="objects/3.html">Бесконенчное поле</a></li>
+                <li class="object-list-item"><a href="objects/4.html">Межвременной туннель</a></li>
+                <li class="object-list-item"><a href="objects/5.html">Вадим</a></li>
+                <li class="object-list-item"><a href="objects/6.html">Леший</a></li>
+                <li class="object-list-item"><a href="objects/7.html">???</a></li>
+                <li class="object-list-item"><a href="objects/8.html">Электрощенок</a></li>
+                <li class="object-list-item"><a href="objects/9.html">Рукопожатие</a></li>
+            </ol>
+        </div>
+    </main>
+</body>
+</html>
