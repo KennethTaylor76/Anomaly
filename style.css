@@ -30,7 +30,7 @@ p, li{
 }
 
 .header{
-    background-color: #600;
+    background-color: #600 !important;
     width: 100%;
 }
 
